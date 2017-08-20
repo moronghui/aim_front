@@ -1,0 +1,30 @@
+/* pages/data/data.wxss */
+.piecanvas{
+  width: 800rpx;
+  height: 700rpx;
+  transform: scale(0.8); 
+  /* transform: translate(-100rpx,-40rpx);  */
+}
+.pie_item,.column_item{
+  background-color: #fff;
+}
+.pie_tip,.column_tip{
+  display: block;
+  width: 100%;
+  height: 40rpx;
+  padding: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  line-height: 40rpx;
+  background-color: #c7e1fa;
+}
+
+.columncanvas{
+  width: 100%;
+  height: 750rpx;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 100rpx;
+  /* transform: scale(0.5);   */
+  /* transform: translate(-100rpx,-40rpx);  */
+}

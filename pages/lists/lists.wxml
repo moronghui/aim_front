@@ -1,0 +1,33 @@
+<!--lists.wxml-->
+<view class="wrap">
+  <view class="add">
+      <input placeholder="写下今天要做的事吧" value="{{inputValue}}" class="add_input" bindinput="inputTap"/>
+      <button class="add_btn" bindtap="addTap">添加</button>
+  </view>
+  <view class="hr"></view>
+
+  <view class="tip" wx:if="{{isTip}}">
+    <text>今天还没添加待办清单，快去添加吧</text>
+  </view>
+  <view class="list">
+    <checkbox-group bindchange="changeHandle">
+      <view wx:for="{{listsArr}}">
+        <view class="item">
+          <checkbox bindtap="doneTap" class="checkbox" data-content="{{item.content}}" data-id="{{item.id}}" checked="{{item.checked}}" />
+          <text class="txt">{{item.content}}</text>
+          <text class="delete" bindtap="deleteTap" data-id="{{item.id}}">删除</text>
+        </view>
+      </view>
+    </checkbox-group>
+  </view>
+
+  <view class="donelist" wx:if="{{doneArr.length ==0 ? false : true}}">
+    <text class="doneTip">已完成清单</text>
+    <view wx:for="{{doneArr}}">
+      <view class="doneitem">
+        <checkbox class="checkbox" checked="true" value="{{item.content}}" disabled="true" />
+        <text class="txt">{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+</view>

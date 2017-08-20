@@ -1,0 +1,75 @@
+/* pages/sign/sign.wxss */
+.slide-image{
+  width:100%; 
+  height: 360rpx;
+}
+.swiper{
+  width: 100%;
+  height: 360rpx;
+}
+.signed_btn{
+  margin: 40rpx;
+  color: #fff;
+  font-size: 20px;
+  line-height: 90rpx;
+  background-color: #1E90FF;
+  opacity: 0.5;
+}
+.unsign_btn{
+  margin: 40rpx;
+  color: #fff;
+  font-size: 20px;
+  line-height: 90rpx;
+  background-color: #1E90FF;
+}
+.sign_info{
+  padding: 20rpx;
+  background: #fff;
+  overflow: hidden;
+}
+.left{
+  float: left
+}
+
+.right{
+  float: right
+}
+.userinfo-avatar{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+.txt{
+  margin-left: 20rpx;
+  display: block;
+  line-height: 50rpx;
+}
+.record{
+  line-height: 100rpx;
+  font-size: 14px;
+}
+.share{
+  margin:20rpx 10rpx;
+  display: flex;
+}
+.weixin{
+  background: url(../../images/weixin.png) left no-repeat;
+  padding-left: 44rpx;
+  font-size: 18px;
+}
+.pengyouquan{
+  background: url(../../images/pengyouquan.png) left no-repeat;
+  padding-left: 44rpx;
+  font-size: 18px;
+}
+.share_btn{
+  flex: 1;
+  background-color: #fff;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  padding: 0px;
+}
+.bg_icon{
+  width: 50rpx;
+  height: 50rpx;
+}

@@ -1,0 +1,10 @@
+<!--pages/data/data.wxml-->
+<view class="pie_item">
+  <text class="pie_tip">今日待办事项完成情况</text>
+  <canvas canvas-id="pieCanvas" class="piecanvas"></canvas>
+</view>
+
+<view class="column_item">
+  <text class="column_tip">最近七天完成情况</text>
+  <canvas canvas-id="columnCanvas" class="columncanvas"></canvas>
+</view>

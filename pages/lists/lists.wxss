@@ -1,0 +1,83 @@
+/* lists.wxss */
+
+.add_input{
+  width: 95%;
+  margin: 40rpx auto 20rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  padding-left: 20rpx;
+  border: 1px solid #87CEFA;
+}
+.add_btn{
+  float: right;
+  width: 240rpx;
+  height: 80rpx;
+  font-size: 36rpx;
+  background-color: #5ba9f5;
+  color: #fff;
+  margin-right: 40rpx;
+}
+.add{
+  overflow: hidden;
+  background: #fff;
+  padding-bottom: 20rpx;
+}
+.list{
+  margin-top: 40rpx;
+  background-color: #fff;
+}
+.item{
+  height: 100rpx;
+  padding-left: 20rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+.txt{
+  display: block;
+  float: left;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-top: 6rpx;
+  width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.checkbox{
+  float: left;
+}
+.doneTip{
+  padding-left: 20rpx;
+  padding-bottom: 20rpx;
+  display: block;
+  border-bottom: 1px solid #eee;
+  width:100%;
+}
+.donelist{
+  margin-top: 40rpx;
+  background-color: #fff;
+  padding-top: 20rpx;
+}
+.doneitem{
+  height: 100rpx;
+  padding-left: 20rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.tip{
+  margin-top: 20px;
+  text-align: center;
+}
+.delete{
+  float: right;
+  display: block;
+  width: 64rpx;
+  height: 64rpx;
+  margin-top: 16rpx;
+  margin-right: 44rpx;
+  text-indent: -999px;
+  background: url(/images/delete16.png) no-repeat center;
+}
